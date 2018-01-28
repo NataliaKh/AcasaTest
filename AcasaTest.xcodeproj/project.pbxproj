@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		632ACE0402B95F948F6AB62E /* Pods_AcasaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCFF1F9F19347FF2692893D4 /* Pods_AcasaTest.framework */; };
 		EB97408E201D2984006224D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB97408D201D2984006224D6 /* AppDelegate.swift */; };
-		EB974090201D2984006224D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB97408F201D2984006224D6 /* ViewController.swift */; };
 		EB974093201D2984006224D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB974091201D2984006224D6 /* Main.storyboard */; };
 		EB974095201D2984006224D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB974094201D2984006224D6 /* Assets.xcassets */; };
 		EB974098201D2984006224D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB974096201D2984006224D6 /* LaunchScreen.storyboard */; };
+		EB9740A2201D2B27006224D6 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9740A1201D2B27006224D6 /* Bill.swift */; };
+		EB9740A4201D3802006224D6 /* BillStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9740A3201D3802006224D6 /* BillStore.swift */; };
+		EB9740A6201D383C006224D6 /* SpendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9740A5201D383C006224D6 /* SpendingViewController.swift */; };
+		EB9740A8201D3975006224D6 /* BillMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9740A7201D3975006224D6 /* BillMapper.swift */; };
+		EB9740AA201D3FDD006224D6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9740A9201D3FDD006224D6 /* NetworkManager.swift */; };
+		EB9740AC201E3F9D006224D6 /* BillTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9740AB201E3F9D006224D6 /* BillTableViewCell.swift */; };
+		EB9740AE201E6C17006224D6 /* BillDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9740AD201E6C17006224D6 /* BillDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3897A1DDD2456B9FB6622E3D /* Pods-AcasaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcasaTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcasaTest/Pods-AcasaTest.debug.xcconfig"; sourceTree = "<group>"; };
 		EB97408A201D2984006224D6 /* AcasaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcasaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB97408D201D2984006224D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB97408F201D2984006224D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB974092201D2984006224D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB974094201D2984006224D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB974097201D2984006224D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB974099201D2984006224D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB9740A1201D2B27006224D6 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		EB9740A3201D3802006224D6 /* BillStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillStore.swift; sourceTree = "<group>"; };
+		EB9740A5201D383C006224D6 /* SpendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingViewController.swift; sourceTree = "<group>"; };
+		EB9740A7201D3975006224D6 /* BillMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillMapper.swift; sourceTree = "<group>"; };
+		EB9740A9201D3FDD006224D6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EB9740AB201E3F9D006224D6 /* BillTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillTableViewCell.swift; sourceTree = "<group>"; };
+		EB9740AD201E6C17006224D6 /* BillDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDetailViewController.swift; sourceTree = "<group>"; };
+		F5ED5894451EB6BA1DB0DE2B /* Pods-AcasaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcasaTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcasaTest/Pods-AcasaTest.release.xcconfig"; sourceTree = "<group>"; };
+		FCFF1F9F19347FF2692893D4 /* Pods_AcasaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcasaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				632ACE0402B95F948F6AB62E /* Pods_AcasaTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A33AE6878F1A03AA273AEE67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCFF1F9F19347FF2692893D4 /* Pods_AcasaTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC0D2763CEFEE6223BFFA5B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3897A1DDD2456B9FB6622E3D /* Pods-AcasaTest.debug.xcconfig */,
+				F5ED5894451EB6BA1DB0DE2B /* Pods-AcasaTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EB974081201D2984006224D6 = {
 			isa = PBXGroup;
 			children = (
 				EB97408C201D2984006224D6 /* AcasaTest */,
 				EB97408B201D2984006224D6 /* Products */,
+				DC0D2763CEFEE6223BFFA5B7 /* Pods */,
+				A33AE6878F1A03AA273AEE67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +91,13 @@
 			isa = PBXGroup;
 			children = (
 				EB97408D201D2984006224D6 /* AppDelegate.swift */,
-				EB97408F201D2984006224D6 /* ViewController.swift */,
+				EB9740A1201D2B27006224D6 /* Bill.swift */,
+				EB9740A7201D3975006224D6 /* BillMapper.swift */,
+				EB9740A5201D383C006224D6 /* SpendingViewController.swift */,
+				EB9740AD201E6C17006224D6 /* BillDetailViewController.swift */,
+				EB9740AB201E3F9D006224D6 /* BillTableViewCell.swift */,
+				EB9740A3201D3802006224D6 /* BillStore.swift */,
+				EB9740A9201D3FDD006224D6 /* NetworkManager.swift */,
 				EB974091201D2984006224D6 /* Main.storyboard */,
 				EB974094201D2984006224D6 /* Assets.xcassets */,
 				EB974096201D2984006224D6 /* LaunchScreen.storyboard */,
@@ -71,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB97409C201D2984006224D6 /* Build configuration list for PBXNativeTarget "AcasaTest" */;
 			buildPhases = (
+				78FDF1CD3AF4989D0B98878C /* [CP] Check Pods Manifest.lock */,
 				EB974086201D2984006224D6 /* Sources */,
 				EB974087201D2984006224D6 /* Frameworks */,
 				EB974088201D2984006224D6 /* Resources */,
+				79816C7D616DA257DBC2AFB2 /* [CP] Embed Pods Frameworks */,
+				50243FF185E9C8F44D8D0F1A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +176,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50243FF185E9C8F44D8D0F1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcasaTest/Pods-AcasaTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78FDF1CD3AF4989D0B98878C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AcasaTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79816C7D616DA257DBC2AFB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AcasaTest/Pods-AcasaTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcasaTest/Pods-AcasaTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB974086201D2984006224D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB974090201D2984006224D6 /* ViewController.swift in Sources */,
+				EB9740AA201D3FDD006224D6 /* NetworkManager.swift in Sources */,
+				EB9740A2201D2B27006224D6 /* Bill.swift in Sources */,
+				EB9740A4201D3802006224D6 /* BillStore.swift in Sources */,
+				EB9740AC201E3F9D006224D6 /* BillTableViewCell.swift in Sources */,
+				EB9740A8201D3975006224D6 /* BillMapper.swift in Sources */,
+				EB9740A6201D383C006224D6 /* SpendingViewController.swift in Sources */,
+				EB9740AE201E6C17006224D6 /* BillDetailViewController.swift in Sources */,
 				EB97408E201D2984006224D6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +381,7 @@
 		};
 		EB97409D201D2984006224D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3897A1DDD2456B9FB6622E3D /* Pods-AcasaTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -281,12 +391,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.natalia.AcasaTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		EB97409E201D2984006224D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5ED5894451EB6BA1DB0DE2B /* Pods-AcasaTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,7 +407,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.natalia.AcasaTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
